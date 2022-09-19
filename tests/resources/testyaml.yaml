@@ -1,0 +1,5 @@
+# Test YAML
+someKey: "1.0"
+nestedArray:
+    - test1
+    - test2

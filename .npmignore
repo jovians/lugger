@@ -1,0 +1,14 @@
+test.ts
+test/**/*
+tests/**/*
+support/**/*
+examples/**/*
+
+*._ritz.ts
+
+**/isolate-*
+*.tgz
+*.log
+
+.secrets.json
+*.properties

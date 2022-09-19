@@ -1,0 +1,15 @@
+{
+  "testjson": true,
+  "nested": {
+    "nest1": [
+      {
+        "nested2": {
+          "nested3": {
+            "value": 1,
+            "valueString": "test"
+          }
+        }
+      }
+    ]
+  }
+}
