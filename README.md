@@ -1,7 +1,3 @@
----
-description: Automation with Typescript DSL
----
-
 # Lugger
 
 ## About Lugger
