@@ -1,14 +1,18 @@
 {
   "name": "lugger",
-  "version": "0.5.17",
+  "version": "0.5.19",
   "index": "index.js",
-  "homepage": "https://github.com/jovians/lugger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovians/lugger.git"
+  },
   "bugs": {
     "url": "https://github.com/jovians/lugger/issues",
     "email": "jovian.technologies@gmail.com"
   },
   "scripts": {
     "prepare": "npm run clean-js --silent && tsc && node index",
+    "prepublish": "npm run test",
     "clean-js": "sh scripts/z-clean-js.sh || true",
     "test": "ritz recompile -f && tsc && node --enable-source-maps tests/run.all",
     "before-commit": "npm run clean-js --silent && ritz revert"
@@ -19,7 +23,7 @@
     "express": "^4.18.1",
     "prepend-file": "^2.0.1",
     "reflect-metadata": "^0.1.13",
-    "ritz2": "0.0.51",
+    "ritz2": "0.0.53",
     "yaml": "^2.1.1"
   },
   "devDependencies": {

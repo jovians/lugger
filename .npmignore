@@ -1,6 +1,7 @@
 test.ts
 test/**/*
 tests/**/*
+docs/**/*
 support/**/*
 examples/**/*
 
@@ -10,5 +11,6 @@ examples/**/*
 *.tgz
 *.log
 
+book.json
 .secrets.json
 *.properties
