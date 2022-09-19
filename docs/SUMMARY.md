@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-* [Getting Started](getting-started/getting-started.md)
+* [Getting Started](getting-started/README.md)
 
 ## Lugger Server
 
-* [Lugger as Automation Server](lugger-server/lugger-as-automation-server.md)
+* [Lugger as Automation Server](lugger-as-automation-server.md)
